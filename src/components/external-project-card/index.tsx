@@ -127,7 +127,7 @@ const ExternalProjectCard = ({
   return (
     <Fragment>
       <div className="col-span-1 lg:col-span-2">
-        <div className="card bg-base-200 shadow-xl border border-base-300">
+        {/* <div className="card bg-base-200 shadow-xl border border-base-300">
           <div className="card-body p-8">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
               <div className="flex items-center space-x-3">
@@ -160,7 +160,7 @@ const ExternalProjectCard = ({
               {loading ? renderSkeleton() : renderExternalProjects()}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Fragment>
   );
